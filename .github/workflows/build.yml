@@ -4,7 +4,7 @@ on:
 env:
   IMAGE_REGISTRY: ghcr.io/${{ github.repository_owner }}
   IMAGE_NAME: sunchirp-os
-  BASE_IMAGE: docker.io/library/ubuntu:22.04
+  BASE_IMAGE: docker.io/library/ubuntu
   BASE_VERSION: 22.04
   #quay.io/fedora-ostree-desktops/silverblue:39
   #docker.io/library/ubuntu:22.04
