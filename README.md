@@ -1,3 +1,3 @@
-# BlueOx OS
+# SunChirp OS
 
 Derived from Universal Blue
