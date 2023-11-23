@@ -4,9 +4,9 @@ on:
 env:
   IMAGE_REGISTRY: ghcr.io/${{ github.repository_owner }}
   IMAGE_NAME: sunchirp-os
-  BASE_IMAGE: quay.io/fedora/silverblue
+  BASE_IMAGE: quay.io/fedora-ostree-desktops/silverblue
   BASE_VERSION: 39
-  #quay.io/fedora/silverblue:39
+  #quay.io/fedora-ostree-desktops/silverblue:39
   #docker.io/library/ubuntu:22.04
 
 jobs:
