@@ -18,11 +18,11 @@ jobs:
 
     steps:
       - name: Maximize GitHub Runner Build Space
-        if: runner.name
+        if: ${{ runner.name }}
         uses: ublue-os/remove-unwanted-software@v6
 
       - name: Install Missing Dependencies for Local ACT Runner
-        if: !runner.name
+        if: ${{ ! runner.name }}
         run: |
           apt update
           apt install buildah skopeo -y
