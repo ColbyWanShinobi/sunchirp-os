@@ -1,6 +1,6 @@
-#! /bin/bash
+#!/usr/bin/env bash
 
-set -ouex pipefail
+set -oue pipefail
 
 script_link=$(readlink -f "${0}")
 script_dir=$(dirname "${script_link}")
